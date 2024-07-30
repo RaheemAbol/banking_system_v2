@@ -31,6 +31,6 @@ public class BankRunner {
             System.out.println("Error processing deposit check: " + e.getMessage());
         }
 
-        System.out.println("Updated Checking Account balance: " + savingsAccount1.getBalance());
+        System.out.println("Updated Checking Account balance: " + checkingAccount1.getBalance());
     }
 }
